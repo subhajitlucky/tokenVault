@@ -14,7 +14,7 @@
   line-height: 1.5;
   font-weight: 400;
   color: var(--text-primary);
-  background: linear-gradient(135deg, var(--background-dark) 0%, var(--background-light) 100%);
+  background: var(--background-dark);
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -49,10 +49,7 @@ h1 {
   font-size: 2.5em;
   line-height: 1.1;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--text-primary);
 }
 
 h2 {
@@ -68,7 +65,7 @@ button {
   font-size: 1em;
   font-weight: 600;
   font-family: inherit;
-  background: linear-gradient(135deg, var(--primary-color), #7c3aed);
+  background: var(--primary-color);
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -79,7 +76,7 @@ button {
 button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(153, 69, 255, 0.3);
-  background: linear-gradient(135deg, #7c3aed, var(--primary-color));
+  background: #7c3aed;
 }
 
 button:disabled {
